@@ -1,5 +1,5 @@
 :root {
-  --font-family-heading: {{ .Site.Params.fontFamilyHeading | default "'Poppins', sans-serif" }};
+  --font-family-heading: {{ .Site.Params.fontFamilyHeading | default "'Silkscreen', sans-serif" }};
   --font-family-paragraph: {{ .Site.Params.fontFamilyParagraph | default "'Helvetica', sans-serif" }};
   --font-family-monospace: {{ .Site.Params.fontFamilyMonospace | default "monospace" }};
   --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
@@ -28,6 +28,7 @@ $breakpoints: (
 @import 'main-menu';
 @import 'main-menu-mobile';
 @import 'pygments/github';
+@import 'type';
 
 html, body {
   box-sizing: border-box;
