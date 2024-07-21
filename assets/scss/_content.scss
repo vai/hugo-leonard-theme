@@ -157,6 +157,9 @@ ul {
 .dot {
   color: var(--dot-color);
 }
+.social-icon a {
+  filter: #{"invert()"};
+}
 
 .footnotes {
   ol {
